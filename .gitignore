@@ -1,3 +1,5 @@
 /gym_unbalanced_disk.egg-info/
 __pycache__/
 .ipynb_checkpoints/
+
+train/
