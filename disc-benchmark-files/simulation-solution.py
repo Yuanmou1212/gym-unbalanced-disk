@@ -9,7 +9,7 @@ from pathlib import Path
 
 current_dir = os.getcwd()  
 parent_dir = os.path.abspath(os.path.join(current_dir, os.pardir))
-target_dir = os.path.join(parent_dir, "Train_ANN", "3_layers_6_11_simulation")
+target_dir = os.path.join(parent_dir, "Train_ANN", "6_11_test_simulation")
 model_path = os.path.join(target_dir, "model.pth")
 
 class Network(nn.Module):
